@@ -1,0 +1,94 @@
+.FullBook {
+    width: 80%;
+    margin: auto;
+}
+
+.FullBook .bookInfoWrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    color: #333;
+}
+
+.FullBook .back {
+
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: auto;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    color: #333;
+}
+.FullBook .back a{
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+.FullBook .imgWrapper {
+    width: 166px;
+    margin-right: 20px;
+}
+
+.FullBook .imgWrapper img {
+    width: 100%;
+}
+
+.FullBook .infoWrapper{
+    width: calc(100% - 190px);
+}
+
+.FullBook .title {
+    color: #08c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.FullBook .subTitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #08c;
+}
+
+.FullBook .authors {
+    display: flex;
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.FullBook .by{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.FullBook .description {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fff;
+}
+
+/*.FullBook ul {*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+/*}*/
+
+/*.FullBook ul li {*/
+    /*margin: 0 20px 10px 10px;*/
+/*}*/

@@ -1,0 +1,36 @@
+/*.Books {*/
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: center;*/
+    /*width: 80%;*/
+    /*margin: auto;*/
+/*}*/
+
+.Books ul{
+    list-style: none;
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+.Books li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.Books a {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+}
+
+.Books a:hover {
+    color: orangered;
+}
